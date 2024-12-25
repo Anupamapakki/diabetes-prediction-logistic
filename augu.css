@@ -1,0 +1,86 @@
+        body {
+            background-color: #f4f1e1; /* Light cream color */
+            position: fixed; /* Fix the entire body */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%; /* Full height */
+            overflow: hidden; /* Disable scrolling */
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%; /* Make container take up full height */
+            padding-top: 60px; /* Add space for the navbar */
+        }
+        .card {
+            padding: 10px;
+            width: 100%;
+            max-width: 500px; /* Restrict the card width */
+        }
+        .form-control {
+            padding: 2px;
+            font-size: 1rem;
+            width: 100%;
+            background-color: #d4f9d4; /* Soft green */
+            text-align: center;
+            border-color: black;
+            border-radius: 0%;
+        }
+        .mb-3 {
+            margin-bottom: 15px !important;
+        }
+        .text-center {
+            margin-top: 5px;
+        }
+        .btn {
+            padding: 12px 20px;
+            font-size: 1.1rem;
+            background-color: #28a745;
+            border-color: #28a745;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #d4f9d4;
+            border-color: #1e7e34;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+        .navbar {
+            position: fixed; /* Fix the navbar to the top */
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(45deg, #28a745, #218838); /* Gradient background */
+            padding: 15px 30px;
+            justify-content: center; /* Center the content */
+            align-items: center; /* Vertically center the content */
+            z-index: 1000; /* Ensure it stays above other elements */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+            border-bottom-left-radius: 20px; /* Round bottom-left corner */
+            border-bottom-right-radius: 20px; /* Round bottom-right corner */
+        }
+        .navbar h1 {
+            color: white;
+            font-size: 1.8rem;
+            margin: 0;
+            letter-spacing: 1px;
+            font-family: 'Arial', sans-serif;
+            cursor: default; /* Ensure no cursor change */
+        }
+        .navbar h1:hover {
+            color: white; /* Keep the same color on hover */
+            cursor: default; /* No pointer cursor */
+        }
+        .card-title {
+            color: #28a745;
+            text-align: center;
+        }
+        .btn-container {
+            text-align: right; /* Align the button to the right */
+            margin-top: 15px;
+        }
